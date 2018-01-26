@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}
+Word Generator - Word
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Word List</h2>
+          <ul>
+            {% for word in words %}
+            <li>{{ word.wordName }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2015</p>
+      </footer>
+    </div> <!-- /container -->
+{% endblock %}
