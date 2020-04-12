@@ -1,14 +1,8 @@
 ## Getting Started
 
 ```bash
-
-# Create Virtual Env
-virtualenv venv
-
-# Activate Virtual Env
+python3 -m venv venv
 source venv/bin/activate
-
-# Install Requirements
 pip install -r requirements.txt
 ```
 
