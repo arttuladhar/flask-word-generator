@@ -1,6 +1,5 @@
-from app.repositories import Word
+from app.models import Word
 from app import app, db
-
 
 """
 Store Word to Database
